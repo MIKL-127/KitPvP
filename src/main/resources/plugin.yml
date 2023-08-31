@@ -1,0 +1,29 @@
+name: KitPvP
+version: '${project.version}'
+main: de.pixl.kitpvp.KitPvP
+api-version: 1.19
+commands:
+  setspawn:
+    description: set the world spawn
+  spawn:
+    description: teleports you to the spawn
+
+  setgreenarena:
+    description: set the spawn for the green team in the arena
+  greenarena:
+    description: teleports to the green arena spawn
+
+  setyellowarena:
+    description: set the spawn for the yellow team in the arena
+  yellowarena:
+    description: teleports to the green arena spawn
+
+  setredarena:
+    description: set the spawn for the red team in the arena
+  redarena:
+    description: teleports to the red arena spawn
+
+  setbluearena:
+    description: set the spawn for the blue team in the arena
+  bluearena:
+    description: teleports to the blue arena spawn
